@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrothersTopup</title>
+    <link rel="stylesheet" href="style/bootstrap.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
+    <link rel="stylesheet" href="style/slick.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/media.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+              <img src="images/1.png" alt="" srcset="">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">game topup</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Gift card</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">register</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">log in</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  account  
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">$0.00</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">add money</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">transfer money</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">cart</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">my order</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Be seller</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">all reviews</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">profile</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">blog</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">contact us</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!-- navbar area end -->
+      <!-- buy form part area start -->
+       <section id="buyForm">
+         <div class="container">
+             <div class="col-lg-12">
+               <div class="buyForm-head">
+                   <h1>Checkout</h1>
+                   <hr>
+                   <h2>This item is discounted for members.
+                        <a href="#">Log</a>  
+                        in to claim it!</h2>
+                    <hr>
+                    <div class="coupon">
+                        <h2>Have a coupon?
+                            <a  data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Click here to enter your code
+                            </a>
+                        </h2>
+                          <div class="collapse" id="collapseExample">
+                            <div class="card card-body">
+                             <h4>If you have a coupon code, please apply it below.</h4>
+                             <form action="">
+                                 <div class="applyCoupon">
+                                     <input type="text">
+                                     <input type="button" class="btn btn-primary" value="Apply Coupon">
+                                 </div>
+                             </form>
+
+                            </div>
+                          </div>
+                    </div>
+
+               </div>
+               <form action="" method="post" onsubmit="return validCheck()">
+                   <div class="BillingForm">
+                     <div class="row">
+                       <div class="col-lg-7">
+                         <div class="BillingDetail">
+                           <h2>Billing details</h2>
+                            <label for="text">Your Name</label>
+                             <input  type="text" id="name" placeholder="your name" required>
+                             <div class="err-msg" id="nameErr"></div>
+                             <label for="text">Phone Number</label>
+                             <input type="text" id="Pnumber" placeholder="your Phone Number" required>
+                             <div class="err-msg" id="PnumberErr"></div>
+                             <label for="text">Your Email</label>
+                             <input type="email" id="email" placeholder="your Email" required>
+                             <div class="err-msg" id="emailErr"></div>
+                             <label for="text">player Id</label>
+                             <input type="text" id="plaryId" placeholder="Player Id" required>
+                             <div class="err-msg" id="plaryIdErr"></div>
+                             
+                             
+                         </div>    
+                       </div>
+                       <div class="col-lg-5">
+                         <div class="payment">
+                           <h2>Your order</h2>
+                           <table class="table">
+                             <tr>
+                               <td>
+                                Product
+                              </td>
+                              <td>
+                                Subtotal
+                              </td>
+                             </tr>
+                             <tr>
+                              <td>
+                                Free Fire Top Up Bangladesh - 1080 Diamonds  × 1
+                             </td>
+                             <td>
+                              ৳ 800.00
+                             </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                subtotal
+                             </td>
+                             <td>
+                              ৳ 800.00
+                             </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                total
+                             </td>
+                             <td>
+                              ৳ 800.00
+                             </td>
+                            </tr>
+                           </table>
+
+                           <div class="payment-method">
+                            <div class="nogad">
+                              <button type="button" onclick="myFunction()" id="nogad-btn">
+                                <div class="form-check">
+                                  <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                  <label class="form-check-label" for="gridRadios1">
+                                    Nagad <img src="images/Nogad.png" alt="" srcset="">
+                                  </label>
+                                </div>
+
+                              </button>
+                              <div id="nagad" class="bkash-form">
+                                <h4>Send Money করে আপনার নগদ নম্বর 
+                                  এবং TrxID (Trans ID) add করে Order Place করুন।</h4>
+                                  <h3>Nagad Personal Number : 01929607276</h3>
+                                <label for="">Nagad Number</label>
+                                <input type="text" id="bkashNum" placeholder="017xxxxxxxxx" required>
+                                <label for="">Nagad Transaction ID</label>
+                                <input type="text" placeholder="8M7B6DFS8N" required>
+                 
+                           </div>
+                            </div>
+                            <div class="bkash">
+                                  <button type="button" onclick="return MyFunction()"  id="bkash-btn">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option1" checked>
+                                      <label class="form-check-label" for="gridRadios2">
+                                        bkash <img src="images/bkash.png" alt="bkash">
+                                      </label>
+                                    </div>
+                                  </button>
+                                  <div id="bkash" class="bkash-form">
+                                       <h4>Send Money করে আপনার বিকাশ নম্বর 
+                                         এবং TrxID (Trans ID) add করে Order Place করুন।</h4>
+                                         <h3>bKash Personal Number : 01929607276</h3>
+                                       <label for="">Bkash Number</label>
+                                       <input type="text" id="bkashNum" placeholder="017xxxxxxxxx" required>
+                                       <label for="">bKash Transaction ID</label>
+                                       <input type="text" placeholder="8M7B6DFS8N" required>
+                                       
+
+                        
+                                  </div> 
+                                  <p class="data">Your personal data will be used to process your order, support your 
+                                    experience throughout this website,
+                                     and for other purposes described in our <a href="#">privacy policy.</a></p>
+                            </div>
+                           </div>
+                         </div>
+                       </div>
+                      </div>
+                      <input type="submit" class="placeOder .float-end" onclick="return sub()" value="place order">
+                   </div>    
+               </form>
+
+
+
+
+
+             </div>
+         </div>
+       </section>
+
+       <!-- buy form part area end -->
+
+        <!-- footer area start -->
+        <footer id="footer">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="footter-area">
+                  <div class="row">
+                    <div class="col-lg-4">
+                      <div class="siteLink">
+                        <div class="siteLink-text">
+                          <h2>site link</h2>
+                        </div>
+                        <div class="siteLink-menu">
+                          <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="fas fa-address-card"></i> About us
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="contact.html">
+                                <i class="fas fa-phone-alt"></i>
+                                 contact us
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="fas fa-vote-yea"></i>
+                                 privacy and policy
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="whatTopup.html">
+                                <i class="fas fa-lightbulb"></i>
+                                 what is bratherTopup?
+                              </a>
+                            </li>                            
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="siteLink">
+                        <div class="siteLink-text">
+                          <h2>Top Up</h2>
+                        </div>
+                        <div class="siteLink-menu">
+                          <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="fas fa-gamepad"></i> freefire
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="fas fa-gamepad"></i>
+                                 clash of clans
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="fas fa-gamepad"></i>
+                                 clash royale
+                              </a>
+                            </li> 
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4">
+                      <div class="siteLink">
+                        <div class="siteLink-text">
+                          <h2>Gift Card</h2>
+                        </div>
+                        <div class="siteLink-menu">
+                          <ul class="navbar-nav me-auto">
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="fab fa-google-play"></i> google play
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="far fa-credit-card"></i>
+                                 ganera card
+                              </a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">
+                                <i class="far fa-credit-card"></i>
+                                 shells card
+                              </a>
+                            </li>                            
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <!-- footer area start -->
+
+
+        <script src="js/jquery-1.12.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/fontawesome_kit.js"></script>
+        <script src="js/custom.js"></script>
+    </body>
+    </html>

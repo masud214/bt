@@ -1,0 +1,477 @@
+@media(max-width:459px) {
+    .TopupText h2 {
+        font-size: 25px;
+    
+    }
+    .TopupText h2::after {
+       
+        width: 157px;
+        top: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .GameCard-image img {
+        height: 280px;
+    }
+    .GameCard-text h3 {
+        font-size: 18px;
+    
+    }
+    #footer {
+        height: 100%;
+    }
+    .siteLink-text h2 {
+        font-size: 24px;
+        margin-top: 55px;
+
+    }
+    .siteLink-menu a {
+        
+        font-size: 14px;
+        
+    }
+    .siteLink-menu i {
+        font-size: 14px;
+        margin: 7px;
+
+    }
+    .search {
+        width: 180px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(214, 52, 41);
+    }
+
+    .banner-main img {
+       height: 200px;
+       max-width: 100%;
+    }
+    .slick-active {
+        width: 100%;
+    }
+    .GameCard-main {
+        margin-left: 0px;
+        
+    }
+    .GameCard-image img {
+        width: 95px;
+        height: 180px;
+    }
+    i.left2 {
+        opacity: 0;
+    }
+    i.right2 {
+        opacity: 0;
+    }
+    .search {
+        margin-top: 15px;
+    }
+    .search-btn {
+        margin-top: 15px;
+    }
+    #banner i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .fftopup-img img {
+        width: 190px;
+        height: 260px;
+    }
+    .fftopup-head h2 {
+
+        font-size: 22px;
+
+    }
+    .fftopup-img img {
+        width: 86px;
+        height: 191px;
+    }
+    .fftopup-img{
+        text-align: start;
+    }
+    .fftopup-text h3 {
+        font-size: 14px;
+    }
+    .footter-area {
+        margin-left: 0px;
+    }
+    .footter-area {
+        margin: 50px 0;
+    }
+    .siteLink-text h2 {
+        font-size: 18px;
+        margin-top: 1px;
+    }
+    .siteLink-menu a {
+        font-size: 11px;
+    }
+    .siteLink-menu i {
+        font-size: 11px;
+         margin: 0px;
+    }
+    #banner i {
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
+    }
+    #banner .slick-dots li button {
+        width: 10px;
+        height: 10px;
+    }
+    #banner .slick-dots li {
+        margin: 0 3px;
+        width: 10px;
+        height: 10px; 
+        line-height: 10px;
+
+    
+    }
+    .massege i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+        border-radius: 50%;
+        font-size: 15px;
+    }
+    .contact-other li a i {
+       line-height: 40px;
+       cursor: pointer;
+    }
+   
+    .cont {
+       width: 40px;
+       height: 40px;
+       line-height: 40px;
+       border-radius: 50%;
+       font-size: 15px;
+
+    } 
+    .nav-link {
+       
+        padding: 0.4rem 1rem;
+        
+        
+    }
+   
+   
+   
+   
+    .icon {
+       width: 40px;
+       height: 40px;
+       line-height: 40px;
+       border-radius: 50%;
+       font-size: 15px;
+   
+    }
+   
+    .times {
+       width: 40px;
+       height: 40px;
+       line-height: 40px;
+       border-radius: 50%;
+       font-size: 15px;
+    } 
+    .buyForm-head h1 {
+        font-size: 26px;
+       
+    }
+    .buyForm-head h2 {
+        font-size: 18px;
+        
+    }
+    .BillingDetail input {
+        width: 300px;
+        height: 45px;
+    }
+    .BillingDetail label {
+        font-size: 15px;
+    }
+    .placeOder {
+        right: 13%;
+
+    }
+    .freefire-about img {
+        width: 200px;
+        height: 269px;
+    }
+    .freefire-about {
+        text-align: center;
+    }
+    .freefire-about p {
+
+        font-size: 14px;
+        margin-top: 25px;
+    }
+    .diamond-text {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    .freefire-card {
+        text-align: center;
+    }
+    .register-form {
+        width: 300px;
+        margin-left: 3px;
+
+    }
+    label {
+        margin: 5px 0;
+    }
+    .form-check-input[type="checkbox"] {
+        margin: 10px 0;
+    }
+    #banner .left {
+        opacity: 0;
+    }
+    #banner .right {
+        opacity: 0;
+    }
+    .GameCard-image img {
+        width: 95px;
+        height: 160px;
+    }
+
+
+}
+@media(min-width:360px) and (max-width:459px) {
+    .BillingDetail input {
+        width: 330px;
+        height: 50px;
+    }
+    .fftopup-img img {
+        width: 102px;
+        height: 180px;
+    }
+    .register-form {
+        width: 330px;
+    }
+    .GameCard-image img {
+        width: 105px;
+        height: 165px;
+    }
+
+}
+@media(min-width:460px) and (max-width:576px) {
+    .TopupText h2 {
+        font-size: 25px;
+    
+    }
+    .TopupText h2::after {
+       
+        width: 157px;
+        top: 130%;
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .GameCard-image img {
+        height: 280px;
+    }
+    .GameCard-text h3 {
+        font-size: 18px;
+    
+    }
+    #footer {
+        height: 100%;
+    }
+    .siteLink-text h2 {
+        font-size: 24px;
+        margin-top: 55px;
+
+    }
+    .siteLink-menu a {
+        
+        font-size: 14px;
+        
+    }
+    .siteLink-menu i {
+        font-size: 14px;
+        margin: 7px;
+
+    }
+    .search {
+        width: 180px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(214, 52, 41);
+    }
+
+    .banner-main img {
+       height: 200px;
+       max-width: 100%;
+    }
+    .slick-active {
+        width: 100%;
+    }
+    .GameCard-main {
+        margin-left: 0px;
+        
+    }
+    .GameCard-image img {
+        width: 145px;
+        height: 260px;
+    }
+    i.left1 {
+        opacity: 1;
+    }
+    i.right1 {
+        opacity: 1;
+    }
+    .search {
+        margin-top: 15px;
+    }
+    .search-btn {
+        margin-top: 15px;
+    }
+    #gameTopup .right2 {
+
+        top: 66%;
+     
+   
+    }
+    .fftopup-img img {
+        width: 200px;
+        height: 280px;
+    }
+    .footter-area {
+        margin-left: 0px;
+    }
+    .siteLink-text h2 {
+        font-size: 18px;
+        margin-top: 1px;
+    }
+    .BillingDetail input {
+        width: 435px;
+        height: 50px;
+    }
+    .BillingDetail label {
+        font-size: 16px;
+    }
+    .placeOder {
+        right: 16%;
+
+    }
+    .BillingDetail input {
+        width: 430px;
+        height: 50px;
+    }
+    .fftopup-img img {
+        width: 145px;
+        height: 280px;
+    }
+    .freefire-about img {
+        width: 250px;
+        height: 300px;
+    }
+    .freefire-about {
+        text-align: center;
+    }
+    .freefire-about p {
+
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    .diamond-text {
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    .freefire-card {
+        text-align: center;
+    }
+    #banner .left {
+        opacity: 0;
+    }
+    #banner .right {
+        opacity: 0;
+    }
+    
+}
+
+@media(min-width:576px) and (max-width:767px) {
+    .search {
+        width: 180px;
+    }
+    .navbar-light .navbar-toggler {
+        color: rgb(214, 52, 41);
+    }
+    .TopupText h2::after {
+       
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .GameCard-image img {
+        width: 155px;
+        height: 280px;
+    }
+    #footer {
+        height: 100%;
+    }
+    .GameCard-text h3 {
+        font-size: 20px;
+    }
+    .siteLink-text h2 {
+        font-size: 25px;
+    }
+    .siteLink-menu a {
+        
+        font-size: 14px;
+        
+    }
+    .siteLink-menu i {
+        font-size: 14px;
+     
+
+    }
+    .footter-area {
+        margin-top: 70px;
+        margin-left: 19px;
+    }
+    .GameCard-main {
+        margin-left: 0px;
+        
+    }
+    .right1 {
+        top: 66%;
+    }
+    #gameTopup .right2 {
+        top: 66%;
+    }
+    .BillingDetail input {
+        width: 660px;
+        height: 50px;
+    }
+    .fftopup-img img {
+        width: 170px;
+        height: 290px;
+    }
+ 
+
+
+}
+@media(min-width:768px) and (max-width:991px) {
+    .navbar-light .navbar-toggler {
+        color: rgb(214, 52, 41);
+    }
+    .TopupText h2::after {
+       
+        left: 50%;
+        transform: translateX(-50%);
+
+    }
+    .GameCard-main {
+         margin-left: 0px; 
+        
+    }
+    .BillingDetail input {
+        width: 650px;
+        height: 50px;
+    }
+    .fftopup-img img {
+        width: 221px;
+        height: 300px;
+    }
+}
